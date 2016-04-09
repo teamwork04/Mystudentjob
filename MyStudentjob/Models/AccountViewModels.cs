@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Mystudentjob.ie.Models
+namespace MyStudentjob.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
@@ -64,7 +64,6 @@ namespace Mystudentjob.ie.Models
 
     public class RegisterViewModel
     {
-        public string Name { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
