@@ -29,5 +29,8 @@ namespace Mystudentjob.ie.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Employer> Employers { get; set; }
     }
+    
 }
